@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <style>
+        header {
+            background-image: url(dd.png);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .b {
+            color: aliceblue;
+            float: left;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        div h2 {
+            margin: 0 10px;
+        }
+        .courses {
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 350px;
+            height: 260px;
+        }
+        #c1{
+            width: 30%;
+            float: right;
+        }
+        #c2{
+            width: 30%;
+            float: left;
+        }
+        #c3{
+            width: 30%;
+            margin: 0 auto;
+            
+        }
+        #c4{
+            width: 30%;
+            float: right;
+        }
+        #c5{
+            width: 30%;
+            float: left;
+        }
+        #c6{
+            width: 30%;
+            margin: 0 auto;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: -20px -8px;">
+        <header>
+            <h1>Data Science</h1>
+            <nav>
+                <ul>
+                    <li><a style="color: aliceblue;">Home</a></li>
+                    <li><a style="color: aliceblue;">Help Desk</a></li>
+                    <li><a style="color: aliceblue;">About</a></li>
+                    <li><a style="color: aliceblue;">Profile</a></li>
+                </ul>
+            </nav>
+            <div class="search" align="left">
+                <form action="/search" method="get">
+                    <input type="text" placeholder="Search..." name="query" required>
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+    </div><br>
+    <div>
+        <h2>Check the courses</h2> <br>
+        <div class="courses" id="c1">
+            <img src="st.jpg" height="170px" width="373px">
+            <h4>Statistics and Probability</h4>
+        </div>
+        <div class="courses" id="c2">
+            <img src="dw2.jpg" height="170px" width="373px">
+            <h4>Data Mining and Data Wrangling</h4>
+        </div>
+        <div class="courses" id="c3">
+            <img src="bdt.jpg" height="170px" width="373px">
+            <h4>Databases and Big Data Technologies</h4>
+        </div> <br>
+        <div class="courses" id="c4">
+            <img src="dv2.png" height="170px" width="373px">
+            <h4>Data Visualization</h4>
+        </div>
+        <div class="courses" id="c5">
+            <img src="data.jpg" height="170px" width="373px">
+            <h4>Ethics and Data Privacy</h4>
+        </div>
+        <div class="courses" id="c6">
+            <img src="dw.jpeg" height="170px" width="373px">
+            <h4>Domain-Specific Applications</h4>
+        </div> <br>
+    </div>
+
+</body>
+
+</html>
